@@ -5,7 +5,7 @@ import Browse from './Pages/Browse';
 import Sell from './Pages/Sell';
 import About from './Pages/About';
 import Login from './Pages/Login';
-import Signup from "./Pages/SignUp";
+import Signup from "./Pages/Signup";
 const App = () => {
   return (
     <div>
@@ -16,7 +16,6 @@ const App = () => {
           <Route path="/sell" element={<Sell />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
         </Routes>
       
     </div>
